@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="description" content="">
+            <meta name="author" content="Guilherme"/>
+            <link rel="stylesheet" type="text/css" href="stylesheet.css" media="all">
+        </head>
+        <body>	
+            <form name="imc_Form" id="box">
+                <h1> Calculo I.M.C </h1> 
+                <p class="nome">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="Nome" role="textbox" name="nnome" placeholder="Nome completo" required/>
+                </p>    
+                <p class="idade">
+                    <label for="idade">Idade:</label>
+                    <input type="text" id="Idade" role="textbox" name="nidade" placeholder="Idade em anos" required/>
+                <p class="sexo">
+                    <label for="sexo">Sexo:</label>
+                    <input type="radio" id="Sexof" name="sexof">
+                        <label for="sexof">Feminino</label>
+                    <input type="radio" id="Sexom" name="sexom">
+                        <label for="sexom">Masculino</label>
+                </p>    
+                <p class="altura">    
+                    <label for="altura">Altura:</label>
+                    <input type="text" id="Altura" role="textbox" name="naltura" placeholder="Altura em metros" required/>
+                </p>    
+                <p class="massa">    
+                    <label for="massa">Massa:</label>
+                    <input type="text" id="Massa" role="textbox" name="nmassa" placeholder="Massa em quilos" required/>
+                </p>    
+                <p class="botao">
+                    <input type="submit" id="enviar" name="Enviar" value="Calcular" onclick="calcula_imc()"/>
+                    <input type="reset" id="limpar" name="limpar" value="Limpar"/>
+                    <script src="js.js"></script>
+                </p>
+            </form>
+        </body>
+    </html>
+</html>	

@@ -1,0 +1,38 @@
+style.css,
+
+body {
+    background-image: url("https://images.pexels.com/photos/165818/pexels-photo-165818.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+}
+
+h1 {
+    font-family: monospace;
+    color: white;
+    text-align: center;
+}
+
+form {
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+input{
+    border-color: black;
+    margin-top: 10%;
+    font-family: monospace;
+    font-size: 15px;
+    text-align: center;
+}
+#box{
+    width: 400px;
+    height: 600px;
+    background-color: firebrick;
+    border-radius: 100px;
+    margin: auto;
+}
+
+
+
+
+
